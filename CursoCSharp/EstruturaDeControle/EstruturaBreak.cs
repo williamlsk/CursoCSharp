@@ -14,7 +14,7 @@ namespace CursoCSharp.EstruturaDeControle
 
             Console.WriteLine("Numero que queremos é {0}", numero);
 
-            for (int i = 1; i <= 50 <; i++)
+            for (int i = 1; i <= 50; i++)
             {
                 Console.WriteLine("{0}, é o numero que queremos? ", i);
 
