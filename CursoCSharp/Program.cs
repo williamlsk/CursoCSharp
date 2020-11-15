@@ -46,6 +46,7 @@ namespace CursoCSharp {
                 {"Desafio Atributos - Classes e Metodos", DesafioAcessarAtributos.Executar},
                 {"Params - Classes e Metodos", Params.Executar},
                 {"Parametros Nomeados- Classes e Metodos", ParametrosNomeados.Executar},
+                {"Getters e Setters - Classes e Metodos", GetterESetters.Executar},
 
 
             });
