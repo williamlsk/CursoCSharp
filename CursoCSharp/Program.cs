@@ -49,6 +49,7 @@ namespace CursoCSharp {
                 {"Getters e Setters - Classes e Metodos", GetterESetters.Executar},
                 {"Props - Classes e Metodos", Props.Executar},
                 {"Read Only - Classes e Metodos", ReadOnly.Executar},
+                {"Enum - Classes e Metodos", Enumeradores.Executar},
 
 
             });
