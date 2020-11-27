@@ -4,22 +4,31 @@ using System.Text;
 
 namespace CursoCSharp.Colecoes
 {
-    class ColecoesList
+    public class Produto
     {
-        public class Produto
+        public string Nome;
+        public double Preco;
+
+        public Produto(string nome, double preco)
         {
-            public string Nome;
-            public double Preco;
-
-            public Produto(string nome, double preco)
-            {
-                Nome = nome;
-                Preco = preco;
-            }
-
+            Nome = nome;
+            Preco = preco;
         }
 
+        public override bool Equals(object obj)
+        {
+            return obj is Produto produto &&
+                   Nome == produto.Nome &&
+                   Preco == produto.Preco;
+        }
 
+        public override int GetHashCode()
+        {
+            return HashCode.Combine(Nome, Preco);
+        }
+    }
+    class ColecoesList
+    {
         public static void Executar()
         {
             var livro = new Produto("Game of thrones", 49.9);

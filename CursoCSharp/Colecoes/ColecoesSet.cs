@@ -18,6 +18,7 @@ namespace CursoCSharp.Colecoes
             {
                 new Produto("Camisa", 29.9),
                 new Produto("8ª Temporada Game of Thrones", 99.9),
+                new Produto("Poster", 10),
                 new Produto("Poster", 10)
             };
 
