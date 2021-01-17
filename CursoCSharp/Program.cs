@@ -103,6 +103,8 @@ namespace CursoCSharp
                 {"Diretorios - usando API", Diretorios.Executar},
                 {"Exemplo Diretorios Info - usando API", ExemploDirectoryInfo.Executar},
                 {"Exemplo Path - usando API", ExemploPath.Executar},
+                {"Exemplo DateTime - usando API", ExemploDateTime.Executar},
+
 
             });
 
